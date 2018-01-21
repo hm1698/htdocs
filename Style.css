@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', serif;
+    }
+.nav {
+        background-color: grey;
+        color: #000000;
+        list-style: none;
+        text-align: center;
+        padding: 20px 0 20px 0;
+    }
+.nav > li {
+        display: inline-block;
+        padding: 0 25px 0 25px;
+        font-size: 12px;
+    }
+.nav > li > a {
+        text-decoration: none;
+        color: #000000;
+}
+.nav > li > a:hover {
+        color: crimson; 
+}
+.banner {
+        width: 100%;
+        display: block;
+}
+.banner > .banner-image {
+    width: 100%;
+    display: block;
+}
+.Logo {
+    float: left;
+}
